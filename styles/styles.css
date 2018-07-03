@@ -1,0 +1,51 @@
+
+/* DOM elements */
+body {
+  font-family: 'Helvetica', sans-serif;
+  font-weight: 300;
+}
+
+header {
+  padding: 20px 0;
+}
+
+h4 {
+  text-decoration: underline;
+}
+
+/* Navigation */
+.navbar-brand {
+  font-size: 2.5rem
+}
+
+/* Format sections of the storyline */
+
+.underline {
+  border-bottom: 1px solid #000;
+  padding-bottom: 3px;
+}
+
+/* Maker page */
+.definition {
+  font-weight: 100;
+}
+
+/* Play page */
+.media img {
+  height: auto;
+  width: 120px;
+}
+
+/* Vertical alignment */
+.landing-page {
+  height:100vh;
+}
+
+.landing-text {
+  height: calc(100vh - 86px);
+  padding-bottom: 43px;
+}
+
+.arrow {
+  bottom: 40px;
+}

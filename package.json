@@ -1,0 +1,24 @@
+{
+  "name": "johns-website",
+  "version": "1.0.0",
+  "description": "Personal website to share work with others",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jwq1/johns-website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jwq1/johns-website/issues"
+  },
+  "homepage": "https://github.com/jwq1/johns-website#readme",
+  "dependencies": {
+    "mkdirp": "^0.5.1",
+    "request": "^2.87.0",
+    "underscore": "^1.9.1"
+  }
+}
