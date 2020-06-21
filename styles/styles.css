@@ -52,3 +52,8 @@ h4 {
 .arrow {
   bottom: 40px;
 }
+
+/* Bio page */
+.bio {
+  font-size: 1.2rem;
+}
