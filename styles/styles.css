@@ -50,6 +50,10 @@ a:link.deco-none, a:visited.deco-none, a:hover.deco-none, a:active.deco-none {
   width: 120px;
 }
 
+img:hover.linkedimage {
+  opacity: 0.4;
+}
+
 /* Vertical alignment */
 .landing-page {
   height:100vh;
