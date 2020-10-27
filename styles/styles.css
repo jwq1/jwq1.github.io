@@ -36,6 +36,16 @@ a:link.deco-none, a:visited.deco-none, a:hover.deco-none, a:active.deco-none {
   text-decoration:none;
 }
 
+a:link.deco-hover, a:visited.deco-hover, a:active.deco-hover {
+  color: black;
+  text-decoration:none;
+}
+
+a:hover.deco-hover {
+  color: gray;
+  text-decoration:none;
+}
+
 /* Maker page */
 .definition {
   font-weight: 100;
