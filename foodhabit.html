@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-121790398-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-121790398-1');
+    </script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Use latest version of bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="styles/styles.css?version=4">
+
+    <title>FoodHabit Project: John Quinn</title>
+
+  </head>
+  <body>
+    <nav class="container navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand display-1" href="./index.html">@jwq1</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link" href="./work.html">Work</a>
+          <a class="nav-item nav-link active" href="./make.html">Make</a>
+          <a class="nav-item nav-link" href="./write.html">Write</a>
+          <a class="nav-item nav-link" href="./volunteer.html">Teach</a>
+          <a class="nav-item nav-link" href="./play.html">Play</a>
+          <a class="nav-item nav-link" href="./bio.html">About</a>
+        </div>
+      </div>
+    </nav>
+
+    <section class="container my-5">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb mt-3 mb-5">
+          <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+          <li class="breadcrumb-item"><a href="make.html">Make</a></li>
+          <li class="breadcrumb-item active" aria-current="page">FoodHabit</li>
+        </ol>
+      </nav>
+      <h1 class="font-weight-light">
+        FoodHabit
+      </h1>
+      <hr></hr>
+    </section>
+
+    <section class="container my-5">
+      <h3 class="story-scene font-weight-light text-center font-italic text-secondary">
+        <u>Overcome chronic disease with faster food logging.</u>
+      </h3>
+    </section>
+
+    <section class="container my-5">
+      <div class="row d-flex flex-md-row flex-col">
+        <div class="col-sm-8 col-12">
+          <h5 class="font-weight-light">
+            Snap a photo of your food to create an instant food log
+          </h5>
+          <p>
+            People can spend 30+ minutes logging food each day through apps like
+            MyFitnessPal, which force manual entry of all the food on a plate.
+            This is a painful problem for people who want to make drastic shifts
+            to their diet. The most demanding customers are the huge number of
+            people who have Inflammatory Bowel Disease (IBS). These people have
+            to log 100% of their meals to track their eating balance with
+            precision. It can take over an hour a day for these customers to
+            input the food-type and amount to apps like MyFitnessPal.
+          </p>
+          <p>
+            FoodHabit makes the food-logging process easier and quicker by
+            leveraging image recognition APIs to convert food images into the
+            food-type and quantity. Customers can skip the input step and
+            still have an app that tells them how to balance their food intake.
+          </p>
+          <p>
+            David and I launched an intial prototype with 10 users and found
+            great success with the most demanding customers (e.g., those with
+            IBS). However, we ran out of resources to pursue the project
+            further and halted development.
+          </p>
+        </div>
+        <div class="col-sm-4 col-12">
+          <img src="images/food-habit-mock.png" class="img-fluid">
+        </div>
+      </div>
+    </section>
+
+    <section class="container my-5">
+      <!-- <div class="row d-flex justify-content-center">
+        <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTZSjpODMBdn9Z5Q2JDdT5fs6fDqpfh9qaHFobc8eQKvIUnk4Df1tT2wp-6W0AV7o1v3H1W5MsylK0W/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+      </div> -->
+      <div class="row d-flex justify-content-center">
+        <div class="col-8 embed-responsive embed-responsive-16by9 px-3">
+          <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/470376595" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+          <iframe class="embed-responsive-item" src="https://docs.google.com/presentation/d/e/2PACX-1vTZSjpODMBdn9Z5Q2JDdT5fs6fDqpfh9qaHFobc8eQKvIUnk4Df1tT2wp-6W0AV7o1v3H1W5MsylK0W/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+        </div>
+      </div>
+    </section>
+
+    <section class="container my-5">
+      <div class="row">
+        <div class="col-12">
+
+          <p>We conducted numerous experiments to hone in product market fit for a smart food tracking app.
+
+          <h5>Wizard of Oz</h5>
+          <p>For one week, we pretended to be a smart chatbot using Facebook Messenger as the host. A few user testers were asked to take pictures of their food and send it to the bot. In the background, we worked as quickly as possible to analyze the food and provide short feedback on how users were doing. Food was manually added to MyFitnessPal and quantitative data was collected for the user to see. At the end of this experiment, we also interviewed users about their thoughts on the experience.</p>
+
+          <h5>User interviews</h5>
+          <p>Through a series of iterations, we conducted dozens of interviews. In these interviews, we went from general questions about lifestyle and diet to specific questions about food logging and our product. From this, we learned how people interact with diet tracking, such as those for specific diet restrictions and those who need to measure food with utensils before learning to eyeball portion sizes.</p>
+
+          <h5>UI prototyping</h5>
+          <p>To better understand the specifics of our concept and to gauge additional feedback from users, we created low-mid fidelity prototypes on interactions with our apps. Some feedback included questions on how the app could detect portion size, how individual foods could be selected, or how to modify default entries to be more specific. We also learned more about which environments people would use this feature in, and how people react to food recommendations in the context of when they eat.</p>
+
+          <img src="images/foodhabit/food-habit-wireframes.jpg" alt="Foodhabit wireframes" class="img-fluid mb-5">
+
+          <h5>Technical prototype</h5>
+          <p>A significant portion of time was dedicated to developing a functional prototype. One of the main obstacles we identified for the viability of our business was being able to build a capable AI for identifying food items and providing useful guidance and feedback. To take a stab at this task, we built a basic Android app that utilizes Clarifai’s API to recognize food.</p>
+
+          <p>Our prototype was able to recognize specific food items and get nutritional info from the USDA database. Although unstable, it was able to grab nutrition for basic food items. We planned to supplement poor behavior with additional user input. Code for this prototype can be found at <a href="github.com/foodhabit" target="_blank">github.com/foodhabit</a></p>
+
+          <img src="images/foodhabit/food-habit-prototype.jpg" alt="Foodhabit wireframes" class="img-fluid mb-5">
+
+
+          <h5>Technical exploration</h5>
+          <p>Additionally, I pursued food image recognition technology with my computational robotics team (w/ Jonah Spear and Judy Xu). In this phase, we were able to explore several key papers on food computer vision, such as those that built deep convolutional neural nets and classified complex Japanese foods. We were able to build our own food classifier, which can identify (out of 101 basic food categories) 68% of the time on the first guess for a given food item. Although comparable to the field, add more food groups would lower this accuracy, and it’s a long way from being useful for a user.</p>
+
+          <h5>BETA challenge</h5>
+          <p>Although very early stage, we decided to apply to the BETA challenge. Although we did not make semi-finals, the process did gear us up for our first slide deck, giving us valuable experience for future fundraising.</p>
+
+          <h5>Learnings</h5>
+          <p>Do more user feedback before technical prototype. After recognizing technical performance as the biggest challenge for the business, we invested several weeks in development. After this phase, we found new competitors that emerged since the start of our project. Since they were more feature complete, this made our prototype much less useful, and we decided to test our concept with their features instead. What we discovered from users was that photo logging would only be applicable 1/3rd of the time (before starting to eat), and although it was an improvement, it was not anything game changing. If we made mocks of our prototype to test what the market wanted first, we may have saved those weeks spent on development for another project.</p>
+          <p>Continually follow competitors | In retrospect, we also should have kept a pulse on what competitors were doing throughout our work. In the two months we dedicated to this project, several strong players emerged such as BiteSnap and Lose it, small and big food tracking companies who are taking advantage of today’s more powerful image recognition algorithms. Doing so would have allowed us to consider our positioning earlier and test more frequently.</p>
+
+          <h5>Future</h5>
+          <p>Because of the quickly emerging space, especially from big players such as Lose It!, as well as weak engagement from users for this product as something game changing, we decided to stop our pursuit of this concept and try another idea that aligns with our team values.</p>
+
+          <h5>References</h5>
+          <ol>
+            <li><a href="everydayhealth.com/news/are-we-fat-think/" target="_blank">everydayhealth.com/news/are-we-fat-think/</a></li>
+            <li><a href="science.time.com/2013/12/16/the-triple-whopper-environmental-impact-of-global-meat-production/" target="_blank">science.time.com/2013/12/16/the-triple-whopper-environmental-impact-of-global-meat-production/</a></li>
+            <li><a href="cowspiracy.com/facts/#" target="_blank">cowspiracy.com/facts/</a></li>
+          </ol>
+          <p class="text-muted font-italic" style="font-size:.75em">This write-up was done by <a href="https://www.linkedin.com/in/hdavidzhu/" target"_blank">David Zhu.</a></p>
+        </div>
+      </div>
+
+    </section>
+    <!-- Bootstrap requirements -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+  </body>
+</html>
